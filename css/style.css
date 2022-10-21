@@ -145,3 +145,82 @@ body {
 
     color: var(--text-color-main);
 }
+
+.team-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(19/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--text-color-main);
+}
+
+.team-text {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(19/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--text-color-secondary);
+}
+
+.team {
+    background-color: #F5F4FA;;
+}
+
+.team-card {
+    background-color: #ffffff;
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+    
+        color: var(--text-color-third);
+}
+
+.footer {
+    background-color: var(--background-hero-footer);
+}
+
+.link.footer-address {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+    
+        color: var(--text-color-third);
+}
+
+.link.footer-contact {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.link.footer-contact:hover,
+.link.footer-contact:focus {
+    color: var(--color-accent);
+}
+
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--color-accent);
+}
